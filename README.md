@@ -99,7 +99,7 @@ To run this project locally:
     bash
     npm start
     
-5. Access the platform via http://localhost:3000.
+5. Access the platform via (http://127.0.0.1:8000/)
 
 ## Acknowledgements
 

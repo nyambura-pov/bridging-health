@@ -46,26 +46,27 @@ To set up BridgingHealth locally, follow these steps:
    cd bridginghealth
 2. Install PHP dependencies:
 
-bash
-Copy code
+```bash
 composer install
+```
 3. Install JavaScript dependencies and build assets:
+```bash
 
-bash
-Copy code
 npm install
 npm run dev
+```
 4. Set up your database:
 
-Create a .env file from .env.example and configure your database settings.
-Run migrations to create database tables:
-bash
-Copy code
+-Create a .env file from .env.example and configure your database settings.
+-Run migrations to create database tables:
+```bash
+
 php artisan migrate
+```
 5. Configure email settings in .env for notifications:
 
-dotenv
-Copy code
+```dotenv
+
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.example.com
 MAIL_PORT=587
@@ -74,35 +75,39 @@ MAIL_PASSWORD=your-email-password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=your-email@example.com
 MAIL_FROM_NAME="${APP_NAME}"
+```
 6. Start the local development server:
 
-bash
-Copy code
+```bash
+
 php artisan serve
-7. Access BridgingHealth at http://localhost:8000 in your web browser.
+```
+7. Access BridgingHealth at ```http://localhost:8000``` in your web browser.
 
-Usage
-After installation, you can begin using BridgingHealth for:
+## Usage
+ After installation, you can begin using BridgingHealth for:
 
-Booking appointments with healthcare providers.
-Logging maternal health symptoms and vitals.
-Accessing educational resources and participating in community forums.
-Contributing
-We welcome contributions to BridgingHealth! To contribute:
+-Booking appointments with healthcare providers.
+-Logging maternal health symptoms and vitals.
+-Accessing educational resources and participating in community forums.
 
-Fork the repository and clone it to your local machine.
-Create a new branch for your feature or bug fix.
-Make your changes and test them thoroughly.
-Commit your changes and push them to your fork.
-Submit a pull request with a detailed description of your contribution.
-License
-This project is licensed under the MIT License.
+## Contributing
+ We welcome contributions to BridgingHealth! To contribute:
 
-Contact
-For support or inquiries, please contact us at BridgingHealth Support.
+-Fork the repository and clone it to your local machine.
+-Create a new branch for your feature or bug fix.
+-Make your changes and test them thoroughly.
+-Commit your changes and push them to your fork.
+-Submit a pull request with a detailed description of your contribution.
 
-Credits
-Special thanks to Faith Nyambura and Claire Wambui for contributions to BridgingHealth.
+## License
+-This project is licensed under the MIT License.
+
+## Contact
+-For support or inquiries, please contact us at BridgingHealth Support.
+
+## Credits
+-Special thanks to Faith Nyambura and Claire Wambui for contributions to BridgingHealth.
 
 css
 Copy code

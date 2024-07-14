@@ -81,7 +81,7 @@ To set up BridgeHealth locally, follow these steps:
     php artisan serve
     ```
 
-Access BridgeHealth at [http://localhost:8000](http://localhost:8000) in your web browser.
+Access BridgeHealth at ```http://localhost:5173/``` in your web browser.
 
 ## Usage
 

@@ -1,122 +1,67 @@
-# BridgingHealth - Maternal Healthcare Platform
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-BridgingHealth is a comprehensive platform designed to enhance maternal healthcare by providing essential tools for expecting mothers, healthcare providers, and caregivers. It aims to streamline the process of accessing healthcare services and information related to maternal and infant care.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+### I MODIFIED THIS FILE D:\laravel apps\BridgeHealth\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php For Authentications
 
-## Core Features
-### 1. Maternal Health Services:
+## About Laravel
 
-- **Appointment Booking**: Schedule appointments with healthcare providers specializing in maternal care.
-- **Symptom Tracking**: Log and monitor maternal health symptoms and vitals.
-- **Educational Resources**: Access articles, videos, and guides on prenatal and postnatal care.
-- **Community Support**: Engage in forums and support groups tailored to maternal health concerns.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-### 2. Healthcare Provider Tools:
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- **Patient Management**: Manage patient records, medical history, and appointments.
-- **Health Monitoring**: Track patient progress, vitals, and health trends.
-- **Education**: Share educational materials with patients on maternal health topics.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-### 3. Caregiver Support:
+## Learning Laravel
 
-- **Information Management**: Access resources and guidelines for caring for expectant and new mothers.
-- **Communication**: Coordinate with healthcare providers and families to ensure comprehensive care.
-- **Education**: Learn about maternal health best practices and caregiving techniques.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## Benefits
-- **Enhanced Accessibility**: Simplifies access to maternal healthcare services and information.
-- **Privacy**: Ensures secure communication channels between users and healthcare providers.
-- **Organization**: Centralizes maternal health management, improving efficiency for all stakeholders.
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-BridgingHealth aims to empower mothers, healthcare providers, and caregivers by offering a unified platform that supports maternal health management from pregnancy through postpartum.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Installation
-To set up BridgingHealth locally, follow these steps:
+## Laravel Sponsors
 
-### Prerequisites
-- PHP (version 7.4 or later)
-- MySQL or MariaDB
-- Composer (PHP dependency manager)
-- Node.js (version 14 or later)
-- Web server (e.g., Apache or Nginx)
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Installation Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bridginghealth.git
-   cd bridginghealth
-2. Install PHP dependencies:
+### Premium Partners
 
-```bash
-composer install
-```
-3. Install JavaScript dependencies and build assets:
-```bash
-
-npm install
-npm run dev
-```
-4. Set up your database:
-
--Create a .env file from .env.example and configure your database settings.
--Run migrations to create database tables:
-```bash
-
-php artisan migrate
-```
-5. Configure email settings in .env for notifications:
-
-```dotenv
-
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.example.com
-MAIL_PORT=587
-MAIL_USERNAME=your-email@example.com
-MAIL_PASSWORD=your-email-password
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=your-email@example.com
-MAIL_FROM_NAME="${APP_NAME}"
-```
-6. Start the local development server:
-
-```bash
-
-php artisan serve
-```
-7. Access BridgingHealth at ```http://localhost:8000``` in your web browser.
-
-## Usage
- After installation, you can begin using BridgingHealth for:
-
--Booking appointments with healthcare providers.
--Logging maternal health symptoms and vitals.
--Accessing educational resources and participating in community forums.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
 ## Contributing
- We welcome contributions to BridgingHealth! To contribute:
 
--Fork the repository and clone it to your local machine.
--Create a new branch for your feature or bug fix.
--Make your changes and test them thoroughly.
--Commit your changes and push them to your fork.
--Submit a pull request with a detailed description of your contribution.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
--This project is licensed under the MIT License.
 
-## Contact
--For support or inquiries, please contact us at BridgingHealth Support.
-
-## Credits
--Special thanks to Faith Nyambura and Claire Wambui for contributions to BridgingHealth.
-
-
-
-
-
-
-
-
-
-
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
